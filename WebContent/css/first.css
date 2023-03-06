@@ -1,0 +1,42 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding:0;
+}/*清除浏览器样式*/
+@media screen and (min-width:1000px){
+	html{
+	font-size:93.75%;
+	}/*设置根元素字体大小=16*93.75%=15px*/
+	body{
+	background-color:#f8ebd8;
+	width:960px;
+	margin:0 auto;
+	}
+	headers{
+	font-size:4rem;
+    color: #656565;
+    text-decoration: none;/*去下划线*/
+    text-align:left;
+    padding: 0px;
+    margin-top:2rem;
+    float:left;
+	}
+	div{
+	color:#bfbfbf;
+	}
+	
+	section{
+	width:480px;
+	height:18rem;
+	float:right; 
+	background:#ffffff;
+	color:#408080;
+	text-align:left;
+	margin-top:14rem;
+	margin-left:1rem;
+	border-style:dotted;
+	border-width:5px;
+	padding-left:1rem;
+	padding-top:0.6rem;
+	}
+}
