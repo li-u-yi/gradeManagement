@@ -97,9 +97,8 @@ while(rs.next()){
 		<th scope="row"><%=i%></th>
 		<td><%=rs.getString("uname") %></td>
 		<td><%=rs.getString("comment") %></td>
-		<td>
-		<a class="btn btn-outline-warning" href="comment.jsp?id=<%=rs.getString(" role="button">删除评价</a></td>
-		
+        <td><a class="btn btn-outline-warning" href="comment.jsp?id=<%=rs.getString("uid")%>" role="button">修改评价</a>
+        <a class="btn btn-outline-danger" href="DelCommentServlet?id=<%=rs.getString("uid")%>" role="button">删除评价</a></td>
 </tr>
 <%
 }
